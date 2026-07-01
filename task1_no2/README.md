@@ -7,11 +7,17 @@ The core objective is to automate the extraction and analysis of massive environ
 Repository Structure
 
 parma-no2-analysis/
+
 ├── data/                  # Contains the engineered parma_unified_2022_2025.csv dataset
+
 ├── src/                   # Core Python pipeline scripts
+
 ├── models/                # Saved serialized models (task1_model.joblib)
+
 ├── report_assets/         # Output tables and figures for thesis documentation
+
 ├── requirements.txt       # Python environment dependencies
+
 └── README.md              # Project documentation
 
 ## Daily NO₂ Concentration Prediction (Parma)
