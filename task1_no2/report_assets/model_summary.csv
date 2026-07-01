@@ -1,0 +1,5 @@
+evaluation,model,R2,RMSE,n
+CV pooled (2022-2025),RandomForest,0.659,2.595,375
+2026 holdout (Apr-Jun),RandomForest,0.501,2.006,53
+2026 holdout (Apr-Jun),XGBoost,0.522,1.963,53
+Year-ahead 2025 holdout,RandomForest,0.126,1.977,73
