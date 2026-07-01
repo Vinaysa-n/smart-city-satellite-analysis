@@ -32,7 +32,7 @@ meteorology, over four years (2022–2025), using Random Forest and XGBoost.
 - Out-of-sample validation on unseen spring 2026: **R² = 0.522**, within ±3 µg/m³ on ~89% of days, unbiased
 
 ## Pipeline (run order)
-1. `scripts/download_s5p_no2_2022_2023.py` — download & clip Sentinel-5P NO₂ (2022–2023)
+1. `scripts/download_s5p_no2_2022_2025.py` — download & clip Sentinel-5P NO₂ (2022–2025)
 2. `scripts/download_meteo_openmeteo_2022_2025.py` — download gap-free meteo (all years)
 3. `scripts/build_unified_2022_2025.py` — aggregate to daily & merge into one 4-year table
 4. `scripts/train_and_save_model.py` — train the final model on 2022–2025 and save it
