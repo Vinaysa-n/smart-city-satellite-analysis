@@ -1,0 +1,6 @@
+model,training_data,iou,f1,pixel_accuracy,green_coverage_pct,tp,fp,fn,tn,notes
+A,Prague only,0.703,0.825,0.839,38.0,2183503,655665,268732,3429316,Best IoU — recommended
+B,EuroSAT + Prague,0.670,0.802,0.830,39.3,2149839,757378,301036,3328963,Broader pretraining
+C,EuroSAT + Prague + Parma FT,0.598,0.749,0.785,41.1,2095148,1051516,355740,3034812,Maximum domain adaptation
+V3_TTA,Model A + 8-fold TTA,,,,,,,,,37.4% green coverage (ensemble)
+Prague_val,Prague test set,,,,,,,,,43.9% green (validation)

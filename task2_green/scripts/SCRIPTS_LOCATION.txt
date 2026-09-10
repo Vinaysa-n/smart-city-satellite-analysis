@@ -1,0 +1,25 @@
+# Task 2 Scripts — Location Guide
+#
+# The main Task 2 scripts were developed in an earlier Claude chat session
+# titled "2 Satellite data analysis algorithms for smart cities".
+#
+# They live on your local machine at:
+#   C:\Users\vinay\OneDrive\Desktop\Thesis\
+#
+# KEY SCRIPTS (copy from your local machine):
+#
+#   unet_v3_all_improvements.py   — Full U-Net V3 architecture + training pipeline
+#                                    ResNet-34 encoder, attention gates, 5-channel input,
+#                                    DiceBCE loss, Models A/B/C training, evaluation
+#
+#   tta_fix.py                    — Test-Time Augmentation inference script
+#                                    8-fold geometric augmentation ensemble
+#                                    Produces parma_v3_segmentation.png (37.4% green)
+#
+# MODEL WEIGHTS (on your local machine):
+#   C:\Users\vinay\OneDrive\Desktop\Thesis\outputs\unet_v3\unet_v3_finetuned.pth
+#
+# TO ADD THESE TO THE REPO:
+#   1. Copy both .py files from your Thesis folder into this scripts/ directory
+#   2. DO NOT commit model weights (.pth files) — they're too large for GitHub
+#      Use Git LFS or a separate storage service if needed
